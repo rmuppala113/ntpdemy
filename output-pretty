@@ -1,0 +1,15 @@
+
++----------+-------------------+-----------------+-------------+-----------+-----------------+
+| VSERVER  |        LIF        |     PROTOCOL    |  Home-Node  | Home-Port |    IP Address   |
++----------+-------------------+-----------------+-------------+-----------+-----------------+
+| Cluster  | cdot-sim-01_clus1 |       none      | cdot-sim-01 |    e0a    |   169.254.99.4  |
+| Cluster  | cdot-sim-01_clus2 |       none      | cdot-sim-01 |    e0b    |  169.254.97.171 |
+| Cluster  | cdot-sim-02_clus1 |       none      | cdot-sim-02 |    e0a    | 169.254.167.137 |
+| Cluster  | cdot-sim-02_clus2 |       none      | cdot-sim-02 |    e0b    |  169.254.91.82  |
+| cdot-sim | cdot-sim-01_mgmt1 |       none      | cdot-sim-01 |    e0c    |  192.168.64.68  |
+| cdot-sim | cdot-sim-02_mgmt1 |       none      | cdot-sim-02 |    e0c    |  192.168.64.69  |
+| cdot-sim |    cluster_mgmt   |       none      | cdot-sim-01 |    e0d    |  192.168.64.60  |
+|   vsm1   |     vsm1-lif1     | nfs,cifs,fcache | cdot-sim-01 |    e0c    |  192.168.64.75  |
+|   vsm2   |     vsm2-lif1     | nfs,cifs,fcache | cdot-sim-02 |    e0c    |  192.168.64.76  |
++----------+-------------------+-----------------+-------------+-----------+-----------------+
+
